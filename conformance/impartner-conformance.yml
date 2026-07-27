@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://login.impartner.com/.well-known/openid-configuration
+standards:
+- id: oauth2
+  conforms: true
+  evidence: Auth0 OAuth 2.0 authorization server (token/authorize endpoints, multiple grant types) advertised at login.impartner.com.
+- id: oidc
+  conforms: true
+  evidence: OIDC discovery document present at https://login.impartner.com/.well-known/openid-configuration (issuer, jwks_uri, userinfo).
+- id: oauth-authorization-server-metadata
+  conforms: true
+  evidence: RFC 8414 metadata served at /.well-known/oauth-authorization-server.
+- id: pkce
+  conforms: true
+  evidence: code_challenge_methods_supported includes S256.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No application/problem+json error contract documented.
+- id: fhir-r4
+  conforms: false
+- id: scim2
+  conforms: false
+- id: fapi
+  conforms: false

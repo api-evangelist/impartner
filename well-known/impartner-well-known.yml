@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of Impartner OAuth/OIDC and API hosts
+hosts:
+- host: https://login.impartner.com
+  note: Auth0 identity tenant that issues tokens for the Impartner platform
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: impartner-openid-configuration.json
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: impartner-oauth-authorization-server.json
+  - path: /.well-known/jwks.json
+    status: 200
+- host: https://prod.impartner.live
+  note: production API host; /.well-known/openid-configuration 302-redirects into the login.impartner.com authorize flow
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 302
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://www.impartner.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404

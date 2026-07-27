@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://prod.impartner.live + https://status.impartner.com
+versioning:
+  scheme: uri-path
+  current: v1
+  example: /objects/v1/{entity}
+  docs: https://developer.impartner.com
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No public deprecation / Sunset-header policy is documented (developer portal is login-gated).
+sla:
+  url: null
+  note: SLA published in commercial contracts; not on a public page.
+status_page: https://status.impartner.com
+deprecated_operations: []

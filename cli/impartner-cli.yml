@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/@impartner/cli
+name: "@impartner/cli"
+summary: First-party command line interface for developing on Impartner Orchestration Studio.
+license: BSD-3-Clause
+version: 1.0.1
+install:
+- method: npm
+  command: npm install -g @impartner/cli
+scope: >-
+  Developer tooling for scaffolding and building Angular-based applications and orchestration
+  extensions on the Impartner platform (works alongside create-impartner-workspace and @impartner/nx-angular).
+binary_catalogued_in: packages/impartner-packages.yml
+notes:
+- This CLI targets platform/app development for Orchestration Studio, not general Objects API scripting.

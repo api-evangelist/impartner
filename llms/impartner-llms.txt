@@ -1,0 +1,30 @@
+# Impartner
+
+> Impartner is a SaaS Partner Relationship Management (PRM) and partner revenue orchestration platform (founded 1997, South Jordan, Utah) that helps enterprises recruit, onboard, and manage indirect sales channels. It exposes a programmatic Objects API (v1) over REST and SOAP using its THQL query language, an Auth0-based OAuth2/OIDC identity layer, and workflow-engine webhooks.
+
+## APIs
+- [Impartner Objects API (v1)](https://developer.impartner.com): REST + SOAP object query API over base https://prod.impartner.live, queried with THQL; skip/take paging, fields selection, WHERE-style filter.
+- [Swagger UI](https://prod.impartner.live/swagger/ui/index): interactive API reference (login-gated).
+
+## Authentication
+- [OIDC discovery](https://login.impartner.com/.well-known/openid-configuration): Auth0 tenant, issuer https://login.impartner.com/, authorize/token/userinfo/jwks endpoints, PKCE (S256).
+- Objects API also accepts a per-tenant API key (obtained from an Impartner representative).
+
+## Docs
+- [Developer portal](https://developer.impartner.com)
+- [Integrations](https://impartner.com/integrations/)
+- [Resources & guides](https://impartner.com/resources)
+- [Status page](https://status.impartner.com)
+- [Pricing](https://impartner.com/request-prm-pricing/)
+- [Blog](https://impartner.com/blog)
+
+## Artifacts (API Evangelist enrichment)
+- Authentication: authentication/impartner-authentication.yml
+- OAuth scopes: scopes/impartner-scopes.yml
+- Conventions (THQL/paging): conventions/impartner-conventions.yml
+- Packages/SDKs: packages/impartner-packages.yml
+- CLI: cli/impartner-cli.yml
+- Lifecycle: lifecycle/impartner-lifecycle.yml
+- Conformance: conformance/impartner-conformance.yml
+- Webhooks: asyncapi/impartner-webhooks.yml
+- Well-known: well-known/impartner-well-known.yml

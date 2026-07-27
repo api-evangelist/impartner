@@ -1,22 +1,67 @@
 aid: impartner
 name: Impartner
-description: 'Impartner is a company surfaced as a portfolio company of emergence-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Impartner is a SaaS-based Partner Relationship Management (PRM) and partner revenue orchestration
+  platform, founded in 1997 and headquartered in South Jordan, Utah, and backed by Emergence Capital.
+  It helps enterprises manage the full indirect-channel lifecycle - partner recruitment, onboarding,
+  deal registration, co-selling, through-channel marketing automation (TCMA), and performance
+  measurement - from a single connected system. For developers and integrators, Impartner exposes an
+  Objects API (version 1) over both REST and SOAP, queried with THQL (The Impartner Query Language),
+  secured by an Auth0-based OAuth2 / OpenID Connect identity layer plus per-tenant API keys, and
+  extended through workflow-engine webhooks and a family of first-party @impartner npm packages,
+  design system, and CLI for building applications on Impartner Orchestration Studio.
 url: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - emergence-capital
-x-tier: stub
+x-tier: enriched
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://impartner.com/wp-content/uploads/2023/01/impartner-logo.png
 tags:
 - Company
-- Saas
-apis: []
+- SaaS
+- Partner Relationship Management
+- PRM
+- Channel Management
+- Partner Ecosystem
+- Through-Channel Marketing
+- Sales
+- CRM
+apis:
+- name: Impartner Objects API
+  description: >-
+    REST and SOAP object API (v1) for reading and writing Impartner platform records (accounts,
+    partners, deals, and tenant-defined custom objects) using the THQL query language with
+    skip/take paging, field selection, and WHERE-style filtering.
+  humanURL: https://developer.impartner.com
+  baseURL: https://prod.impartner.live
+  properties:
+  - type: APIReference
+    url: https://prod.impartner.live/swagger/ui/index
+  - type: Authentication
+    url: authentication/impartner-authentication.yml
+  - type: OAuthScopes
+    url: scopes/impartner-scopes.yml
+  - type: Conventions
+    url: conventions/impartner-conventions.yml
+  - type: Webhooks
+    url: asyncapi/impartner-webhooks.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +70,54 @@ maintainers:
 common:
 - type: Website
   url: https://www.impartner.com
+- type: DeveloperPortal
+  url: https://developer.impartner.com
+- type: Documentation
+  url: https://developer.impartner.com
+- type: APIReference
+  url: https://prod.impartner.live/swagger/ui/index
+- type: Login
+  url: https://login.impartner.com
+- type: Pricing
+  url: https://impartner.com/request-prm-pricing/
+- type: Blog
+  url: https://impartner.com/blog
+- type: Support
+  url: https://impartner.com/contact/
+- type: PrivacyPolicy
+  url: https://impartner.com/privacy-policy
+- type: StatusPage
+  url: https://status.impartner.com
+- type: Integrations
+  url: https://impartner.com/integrations/
+- type: Authentication
+  url: authentication/impartner-authentication.yml
+- type: OAuthScopes
+  url: scopes/impartner-scopes.yml
+- type: Conventions
+  url: conventions/impartner-conventions.yml
+- type: Packages
+  url: packages/impartner-packages.yml
+- type: SDKs
+  url: packages/impartner-packages.yml
+- type: CLI
+  url: cli/impartner-cli.yml
+- type: Lifecycle
+  url: lifecycle/impartner-lifecycle.yml
+- type: Conformance
+  url: conformance/impartner-conformance.yml
+- type: MCPServer
+  url: mcp/impartner-mcp.yml
+- type: Webhooks
+  url: asyncapi/impartner-webhooks.yml
+- type: WellKnown
+  url: well-known/impartner-well-known.yml
+- type: DomainSecurity
+  url: security/impartner-domain-security.yml
+- type: LLMsTxt
+  url: llms/impartner-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

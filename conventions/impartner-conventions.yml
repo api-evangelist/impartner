@@ -1,0 +1,47 @@
+generated: '2026-07-19'
+method: searched
+source: https://xsoar.pan.dev/docs/reference/integrations/impartner
+docs: https://developer.impartner.com
+api: Impartner Objects API v1
+base_url: https://prod.impartner.live
+authentication:
+  style: oauth2-oidc (platform) + api-key-header (Objects API)
+  see: authentication/impartner-authentication.yml
+query_language:
+  name: THQL
+  description: >-
+    THQL (The Impartner Query Language) is Impartner's mature query language used to select and
+    filter records from the Objects API over both REST and SOAP.
+pagination:
+  style: offset
+  params:
+    take: page size (number of records to return)
+    skip: number of records to skip (offset)
+    orderby: sort expression
+  response_fields:
+    count: total matching record count
+    results: array of entity records
+field_selection:
+  params:
+    fields: comma-separated list of fields to return
+    all_fields: return all fields including custom fields
+  custom_field_suffix: __cf
+  note: Tenant-defined custom fields are exposed with a __cf suffix.
+filtering:
+  param: filter
+  style: WHERE-clause expression (THQL / SQL-like)
+versioning:
+  style: uri-path
+  current: v1
+  example: /objects/v1/{entity}
+error_envelope:
+  note: Objects API returns a JSON envelope; problem+json (RFC 9457) is not documented.
+idempotency:
+  supported: false
+  note: No idempotency-key contract is documented for the Objects API.
+rate_limiting:
+  note: No public rate-limit signaling is documented.
+cross_reference:
+  authentication: authentication/impartner-authentication.yml
+  scopes: scopes/impartner-scopes.yml
+  lifecycle: lifecycle/impartner-lifecycle.yml

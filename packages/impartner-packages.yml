@@ -1,0 +1,68 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/search?q=%40impartner
+note: >-
+  Impartner publishes a family of first-party npm packages under the @impartner scope. These target
+  building and extending Impartner platform applications (Orchestration Studio / Angular host apps
+  and the Hex design system) rather than server-side API clients; there is no published multi-language
+  API client SDK. All are first-party (official).
+packages:
+- language: javascript
+  registry: npm
+  name: "@impartner/angular-sdk"
+  url: https://www.npmjs.com/package/@impartner/angular-sdk
+  install: npm install @impartner/angular-sdk
+  version: 4.1.1
+  license: BSD-3-Clause
+  description: Angular services and typings for Angular web components written for Impartner host applications.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@impartner/angular-apps"
+  url: https://www.npmjs.com/package/@impartner/angular-apps
+  install: npm install @impartner/angular-apps
+  version: 4.1.1
+  description: Angular components and services for Impartner applications.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@impartner/design"
+  url: https://www.npmjs.com/package/@impartner/design
+  install: npm install @impartner/design
+  version: 4.0.1
+  description: CSS resources for the Impartner Hex design system.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@impartner/design-components"
+  url: https://www.npmjs.com/package/@impartner/design-components
+  install: npm install @impartner/design-components
+  version: 4.0.3
+  description: Angular implementations of the Impartner Hex design system components.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@impartner/nx-angular"
+  url: https://www.npmjs.com/package/@impartner/nx-angular
+  install: npm install @impartner/nx-angular
+  version: 3.1.0
+  description: Nx plugin for building Angular-based applications for Impartner.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@impartner/cli"
+  url: https://www.npmjs.com/package/@impartner/cli
+  install: npm install -g @impartner/cli
+  version: 1.0.1
+  license: BSD-3-Clause
+  description: Command line interface for development for Impartner Orchestration Studio.
+  official: true
+  see: cli/impartner-cli.yml
+- language: javascript
+  registry: npm
+  name: create-impartner-workspace
+  url: https://www.npmjs.com/package/create-impartner-workspace
+  install: npm init impartner-workspace
+  version: 3.1.0
+  description: Installer for building Angular-based applications for Impartner.
+  official: true

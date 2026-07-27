@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://impartner.com/integrations/
+spec_type: Webhooks
+summary: >-
+  Impartner exposes outbound webhooks that are configured and triggered from its workflow engine,
+  letting the platform push channel/partner events to external systems as part of automations. No
+  AsyncAPI document is published and the specific event-type catalog is documented inside the
+  login-gated developer portal, so only the mechanism is captured here (no event names fabricated).
+webhooks:
+  mechanism: workflow-engine outbound HTTP webhooks
+  configuration: defined per-tenant in the Impartner workflow/automation engine
+  direction: outbound (Impartner -> subscriber)
+  docs: https://developer.impartner.com
+event_catalog: null
+notes:
+- Zapier and other iPaaS connectors consume Impartner triggers built on this webhook/automation surface.

@@ -2,11 +2,9 @@ generated: '2026-07-19'
 method: derived
 status: candidate
 source: https://xsoar.pan.dev/docs/reference/integrations/impartner
-note: >-
-  Impartner publishes no official hosted/remote MCP server. This is a CANDIDATE tool sketch derived
-  from the publicly documented Objects API v1 surface (account operations documented in third-party
-  connectors); it is not an authoritative or complete operation list and no OpenAPI is published to
-  ground a full derivation.
+note: Impartner publishes no official hosted/remote MCP server. This is a CANDIDATE tool sketch derived
+  from the publicly documented Objects API v1 surface (account operations documented in third-party connectors);
+  it is not an authoritative or complete operation list and no OpenAPI is published to ground a full derivation.
 server:
   name: impartner
   transport: http
@@ -18,3 +16,9 @@ tools:
 - name: get_account
   description: Fetch a single account record by id (optionally all fields).
   source_operation: Objects API v1 GET /objects/v1/Account/{id}
+deployment:
+  mode: none
+  verified: derived
+  tools: 2
+  checked: '2026-08-12'
+  source: catalog MCP census

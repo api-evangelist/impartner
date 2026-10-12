@@ -1,0 +1,322 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/impartner/integrations
+checked:
+- https://composio.dev/toolkits/impartner
+- https://monid.ai/tools/impartner
+- https://n8n.io/integrations/impartner/
+- https://zapier.com/apps/impartner/integrations
+summary: null
+marketplace_apps:
+- marketplace: zapier
+  channel: ipaas-listing
+  app: impartner
+  url: https://zapier.com/apps/impartner/integrations
+  external_url: https://impartner.com/
+  partner_tier: BRONZE
+  triggers:
+  - key: new_error_in_sync_logs
+    label: New Error in Sync Log
+  - key: new_object_record
+    label: New Object Record
+  - key: new_updated_object_record
+    label: New or Updated Object Record
+  - key: updated_field_object_record
+    label: Updated Field on Record
+  actions:
+  - key: attach_file_to_record
+    label: Attach a Temp File to a Record
+  - key: create_record
+    label: Create a Record
+  - key: create_records
+    label: Create Records (Line Item Support)
+  - key: download_asset
+    label: Download an Asset
+  - key: get_crm_sync_log_error_details
+    label: Retrieve Sync Log Error Details
+  - key: update_asset_collection_segmentation
+    label: Update Asset Collection Segmentation
+  - key: update_asset_segmentation
+    label: Update Asset Segmentation
+  - key: update_record
+    label: Update a Record
+  - key: upload_file
+    label: Upload a File
+  searches:
+  - key: filter_by_filter_query
+    label: Find a Record by Filter Query
+  - key: query_records_by_thql_query
+    label: Find a Record by THQL Query
+edges:
+- partner_name: HubSpot
+  partner: hubspot
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/hubspot
+  direction: third-party
+  category: Marketing Automation
+  partner_url: http://www.hubspot.com/
+- partner_name: Amazon Redshift
+  partner: amazon-redshift
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/amazon-redshift
+  direction: third-party
+  category: Amazon
+  partner_url: https://aws.amazon.com/redshift/
+- partner_name: Gmail
+  partner: gmail
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/gmail
+  direction: third-party
+  category: Email
+  partner_url: https://mail.google.com/
+- partner_name: Google Drive
+  partner: google-drive
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/google-drive
+  direction: third-party
+  category: File Management & Storage
+  partner_url: https://www.google.com/drive/
+- partner_name: Dreamdata
+  partner: dreamdata
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/dreamdata
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://dreamdata.io/
+- partner_name: canibuild
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/canibuild
+  direction: third-party
+  category: Sales & CRM
+  partner_url: https://canibuild.com/
+- partner_name: Google Sheets
+  partner: google-sheets
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/google-sheets
+  direction: third-party
+  category: Google
+  partner_url: http://sheets.google.com/
+- partner_name: Asana
+  partner: asana
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/asana
+  direction: third-party
+  category: Project Management
+  partner_url: http://asana.com/
+- partner_name: SendGrid
+  partner: sendgrid
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/sendgrid
+  direction: third-party
+  category: Transactional Email
+  partner_url: https://sendgrid.com/
+- partner_name: Clay
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/clay
+  direction: third-party
+  category: Spreadsheets
+  partner_url: https://clay.run/
+- partner_name: Google Calendar
+  partner: google-calendar
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/google-calendar
+  direction: third-party
+  category: Calendar
+  partner_url: https://calendar.google.com/
+- partner_name: Facebook Lead Ads
+  partner: facebook-lead-ads
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/facebook-lead-ads
+  direction: third-party
+  category: Ads & Conversion
+  partner_url: https://www.facebook.com/business/ads/lead-ads
+- partner_name: Google Forms
+  partner: google-forms
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/google-forms
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: http://google.com/
+- partner_name: Mailchimp
+  partner: mailchimp
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/mailchimp
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://mailchimp.com/
+- partner_name: Calendly
+  partner: calendly
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/calendly
+  direction: third-party
+  category: Scheduling & Booking
+  partner_url: https://calendly.com/?utm_medium=partner&utm_source=zapier&utm_campaign=main_partner_page&utm_content=main_inbound_link
+- partner_name: ChatGPT (OpenAI)
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/chatgpt
+  direction: third-party
+  category: AI Assistants
+  partner_url: https://chat.openai.com/chat
+- partner_name: Jira Software Cloud
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/jira-software-cloud
+  direction: third-party
+  category: Project Management
+  partner_url: https://www.atlassian.com/software/jira
+- partner_name: Unbounce
+  partner: unbounce
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/unbounce
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: https://unbounce.com/
+- partner_name: WinMan V8
+  partner: null
+  partner_match: null
+  partner_candidate: zapier
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/impartner/integrations/winman-v8
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://zapier.com/www.winman.com
+templates:
+- title: Update HubSpot contacts when fields on Impartner records are newly-updated
+  url: https://zapier.com/apps/hubspot/integrations/impartner/1546745/update-hubspot-contacts-when-fields-on-impartner-records-are-newly-updated
+  apps:
+  - impartner
+  - hubspot
+- title: Send Slack channel messages for new errors in sync logs in Impartner
+  url: https://zapier.com/apps/impartner/integrations/slack/1546750/send-slack-channel-messages-for-new-errors-in-sync-logs-in-impartner
+  apps:
+  - impartner
+  - slack
+- title: Add new errors in Impartner Sync Log to rows in Snowflake
+  url: https://zapier.com/apps/impartner/integrations/snowflake/1546762/add-new-errors-in-impartner-sync-log-to-rows-in-snowflake
+  apps:
+  - impartner
+  - snowflake
+- title: Add new Impartner object record updates to Microsoft Dynamics 365 contacts
+  url: https://zapier.com/apps/impartner/integrations/microsoft-dynamics-crm/1546764/add-new-impartner-object-record-updates-to-microsoft-dynamics-365-contacts
+  apps:
+  - impartner
+  - microsoft-dynamics-crm
+- title: Create Salesforce contacts from new Impartner object records
+  url: https://zapier.com/apps/impartner/integrations/salesforce/1546767/create-salesforce-contacts-from-new-impartner-object-records
+  apps:
+  - impartner
+  - salesforce
+- title: Add new Salesforce records to Impartner
+  url: https://zapier.com/apps/impartner/integrations/salesforce/1546782/add-new-salesforce-records-to-impartner
+  apps:
+  - salesforce
+  - impartner
+- title: Create Impartner records from new Zoho CRM contacts
+  url: https://zapier.com/apps/impartner/integrations/zoho-crm/1546787/create-impartner-records-from-new-zoho-crm-contacts
+  apps:
+  - zoho-crm
+  - impartner
+- title: Add new Pipedrive organizations to Impartner
+  url: https://zapier.com/apps/impartner/integrations/pipedrive/1546791/add-new-pipedrive-organizations-to-impartner
+  apps:
+  - pipedrive
+  - impartner
+- title: Create spreadsheet rows in Google Sheets for new object records in Impartner
+  url: https://zapier.com/apps/google-sheets/integrations/impartner/1610404/create-spreadsheet-rows-in-google-sheets-for-new-object-records-in-impartner
+  apps:
+  - impartner
+  - google-sheets
+- title: Create Impartner records from new or updated Google Sheets rows
+  url: https://zapier.com/apps/google-sheets/integrations/impartner/1648185/create-impartner-records-from-new-or-updated-google-sheets-rows
+  apps:
+  - google-sheets
+  - impartner
+- title: Create new posts in Webhooks by Zapier for newly recorded objects in Impartner
+  url: https://zapier.com/apps/impartner/integrations/webhook/1657551/create-new-posts-in-webhooks-by-zapier-for-newly-recorded-objects-in-impartner
+  apps:
+  - impartner
+  - webhook
+- title: Create new Zoom webinar registrants from new Impartner object records
+  url: https://zapier.com/apps/impartner/integrations/zoom/1738643/create-new-zoom-webinar-registrants-from-new-impartner-object-records
+  apps:
+  - impartner
+  - zoom
+template_total: 12

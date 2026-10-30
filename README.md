@@ -64,6 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Impartner is a company surfaced as a portfolio company of emergence-capital and added to the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the enrichment pipeline.
+Impartner is a SaaS-based Partner Relationship Management (PRM) and partner revenue orchestration platform, founded in 1997 and headquartered in South Jordan, Utah, and backed by Emergence Capital. It helps enterprises manage the full indirect-channel lifecycle - partner recruitment, onboarding, deal registration, co-selling, through-channel marketing automation (TCMA), and performance measurement - from a single connected system. For developers and integrators, Impartner exposes an Objects API (version 1) over both REST and SOAP, queried with THQL (The Impartner Query Language), secured by an Auth0-based OAuth2 / OpenID Connect identity layer plus per-tenant API keys, and extended through workflow-engine webhooks and a family of first-party @impartner npm packages, design system, and CLI for building applications on Impartner Orchestration Studio.
 
-Backed by: emergence-capital — https://www.impartner.com
+**Areas:** Company · Software-as-a-Service · Partner Relationship Management · PRM · Channel Management · Partner Ecosystem · Through-Channel Marketing · Sales · CRM
+
+## Impartner on APIs.io
+
+Everything profiled for Impartner is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/impartner/](https://apis.io/providers/impartner/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Impartner Objects API](https://apis.io/apis/impartner/impartner-objects-api/) — REST and SOAP object API (v1) for reading and writing Impartner platform records (accounts, partners, deals, and tenant-defined custom objects) using the…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Impartner Webhooks](https://apis.io/asyncapis/impartner/impartner-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [impartner](https://apis.io/servers/impartner/impartner/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Impartner Authentication](https://apis.io/security/impartner/impartner-authentication/)
+- [Impartner Domain Security](https://apis.io/security/impartner/impartner-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Impartner Scopes](https://apis.io/scopes/impartner/impartner-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.impartner.com)
+- [Documentation](https://developer.impartner.com)
+- [API reference](https://prod.impartner.live/swagger/ui/index)
+- [Pricing](https://impartner.com/request-prm-pricing/)
+- [Support](https://impartner.com/contact/)
+- [Blog](https://impartner.com/blog)
+- [Privacy policy](https://impartner.com/privacy-policy)
+- [Status](https://status.impartner.com)
+
+## API Evangelist rating
+
+**Kin Score 37.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 39.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 36.9 |
+| Access clarity | 27.6 |
+
+**Agent readiness 32.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/impartner/](https://apis.io/providers/impartner/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Impartner: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/impartner/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
